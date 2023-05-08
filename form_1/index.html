@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="java.js"></script>
+    <title>- 1 -</title>
+</head>
+
+<body>
+    <form action="http://se.shenkar.ac.il/teach/web1/get_form3.php" method="get" autocomplete="on" id="form_">  
+
+        <br>
+        <div>
+        <label><h6> Enter Your Name :- </h6><input   type="text"  class="form-control"   name="fullName" placeholder="My Name" id="full_name" title="Enter a valid full Name containing only alphabet characters and spaces" >
+        </label> <span id="1"></span>
+        </div> 
+        <br>
+        
+
+       <label ><h6>Enter Your password :-</h6> <input type="password" class="form-control"  name="pass" placeholder="password" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" title="Minimum eight characters, at least one letter, one number and one special character"></label>
+       <br><br>
+       
+
+       <label> <h6>Enter Your email :- </h6><input type="email"  class="form-control" name="mail" placeholder=" Email"> </label>
+       <br><br>
+
+
+       <label><h6>Enter Your url :- </h6><input type="url" class="form-control"  name="website" placeholder="url"> </label>
+       <br><br>
+       
+
+       <label><h6>telephone number :- </h6><input type="tel"  class="form-control" name="phone" placeholder="number phone" pattern="[0-9]{10}"    title="10 numbers only"> </label>
+       <br>
+       <br>
+
+       <label><h6>coffee :-</h6> <input type="number" class="form-control"  name="coffee"></label>
+       <br><br>
+       
+
+       <label><h6>temper :-</h6>  <input type="number"  class="form-control" name="temper"></label>
+       <br>
+       <br>
+
+       <label><h6>Enter Your range :-</h6>  <input type="range"  class="form-range" name="tech"></label>
+       <br><br>
+       
+
+       <label><h6>adrress :-</h6><textarea  name= "address" class="form-control" class="form-text" rows="3" cols="23" ></textarea></label>
+       <br><br>
+       
+
+     <span ><span>interests:</span><br>
+       <label class="form-check form-check-inline" >Eating <input class="form-check-input" type="checkbox" name="interests[]" value="Eating"></label><br>
+       <label class="form-check form-check-inline" >Traveling <input class="form-check-input"  type="checkbox" name="interests[]" value="Traveling"></label><br>
+       <label class="form-check form-check-inline" >Sleeping <input class="form-check-input" type="checkbox" name="interests[]" value="Sleeping"></label><br>
+       <label  class="form-check form-check-inline" >Studying<input  class="form-check-input" type="checkbox" name="interests[]" value="Studying"></label><br>
+        <div id="parent"></div>
+     </span>
+     <br>
+
+
+     
+    <span><span>Gender:</span><br>
+     <label class="form-check form-check-inline" >male <input type="radio" name="gender" value="male" class="form-check-input"></label><br>
+     <label class="form-check form-check-inline" >female<input type="radio" name="gender" value="female" class="form-check-input"></label><br>
+    </span><br><br>
+
+
+    <label><span>Age:</span>
+       <select name="age"  id="select_1_list" class="w-100 p-3" > </select>
+    </label>
+     <br><br>
+
+
+    <input type="submit" name="button" class="btn btn-outline-secondary" value="save and send">
+    <br><br>
+    </form>
+
+
+
+</body>
+</html>
